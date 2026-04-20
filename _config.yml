@@ -29,7 +29,7 @@ github_username:  leisha5
 
 # Build settings
 theme: minima
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@v2.5.1
 plugins:
   - jekyll-feed
 
