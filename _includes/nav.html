@@ -1,0 +1,15 @@
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="{{ '/' | relative_url }}" class="nav-name">Leisha Bajaj</a>
+    <ul class="nav-links" role="list">
+      <li><a href="{{ '/' | relative_url }}"
+        {% if page.permalink == '/' %}aria-current="page"{% endif %}>Home</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}"
+        {% if page.permalink == '/blog/' %}aria-current="page"{% endif %}>Blog</a></li>
+      <li><a href="{{ '/cv/' | relative_url }}"
+        {% if page.permalink == '/cv/' %}aria-current="page"{% endif %}>CV</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}"
+        {% if page.permalink == '/contact/' %}aria-current="page"{% endif %}>Contact</a></li>
+    </ul>
+  </div>
+</nav>
