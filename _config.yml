@@ -43,3 +43,9 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
 permalink: pretty
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

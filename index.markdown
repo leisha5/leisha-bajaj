@@ -2,7 +2,6 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
----
 layout: default
 title: Home
 permalink: /
@@ -12,7 +11,7 @@ permalink: /
   <div class="pcol">
     <div class="pring">
       <div class="pinner">
-        <img src="{{ '/assets/photo.jpg' | relative_url }}" alt="Leisha Bajaj">
+        <img src="{{'/assets/photo.jpg'|'/assets/photo.jpg'}}" alt="Leisha Bajaj">
       </div>
     </div>
   </div>
