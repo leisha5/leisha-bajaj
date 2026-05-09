@@ -11,7 +11,7 @@ permalink: /
   <div class="pcol">
     <div class="pring">
       <div class="pinner">
-        <img src="{{ 'assets/_DSC3464 2.jpg | assets/_DSC3464 2.jpg}}" alt="Leisha Bajaj">
+        <img src="{{ '/assets/_DSC3464-2.jpg' | relative_url }}" alt="Leisha Bajaj">
       </div>
     </div>
   </div>
