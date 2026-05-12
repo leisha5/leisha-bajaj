@@ -43,6 +43,9 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
 permalink: pretty
+baseurl: "/leisha-bajaj"
+include:
+  - _pages
 defaults:
   - scope:
       path: ""
