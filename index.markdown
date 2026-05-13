@@ -18,7 +18,7 @@ permalink: /
   <div class="itext">
     <h1>Hello, I'm Leisha!</h1>
     <p>Third-year student at the University of Washington, majoring in Informatics and minoring in Business Administration. My core interests are business analytics and cybersecurity.</p>
-    <p>Undergraduate collaborator at the <a href="https://asili.uw.edu">ASILI lab</a>, researching credential stuffing, authentication bypasses, and the Dead Internet Theory. Accessibility designer and developer at <a href="https://faculty.washington.edu/ajko/wordplay">Wordplay</a>.</p>
+    <p>Undergraduate collaborator at the <a href="https://faculty.washington.edu/kotut/advising.html">ASILI lab</a>, researching credential stuffing, authentication bypasses, and the Dead Internet Theory. Accessibility designer and developer at <a href="https://faculty.washington.edu/ajko/wordplay">Wordplay</a>.</p>
     <div class="ilinks">
       <a href="mailto:leisha5@uw.edu">Email</a>
       <a href="https://linkedin.com/in/leisha-bajaj">LinkedIn</a>
