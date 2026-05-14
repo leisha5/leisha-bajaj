@@ -7,19 +7,17 @@
   <title>{{ Leisha Bajaj }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
-<body>
+<body class="layout-{{ page.layout }}">
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <div class="outer">
-    <div class="content-row">
-      {% include vines_left.html %}
-      <div class="center">
-        {% include nav.html %}
-        <main id="main-content" tabindex="-1">
-          {{ content }}
-        </main>
+      <div class="content-row">
+        <div class="center">
+          {% include nav.html %}
+          <main id="main-content" tabindex="-1">
+            {{ content }}
+          </main>
+        </div>
       </div>
-      {% include vines_right.html %}
-    </div>
     {% include footer.html %}
   </div>
 </body>
